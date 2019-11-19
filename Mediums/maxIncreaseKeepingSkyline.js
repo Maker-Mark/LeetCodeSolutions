@@ -1,5 +1,5 @@
 /**
-To maximize the height while maintaining the height of the skyline from the view of the top/botttom and right/left:
+To maximize the height while maintaining the height of the skyline from the view of the top/bottom and right/left:
     GOAL: At every A[row][col] we need to find the max of that row, column, and then make the current A[i][j] = the minimum of the two, as long as it's greater than the current value
     1) Make a nested for loop to go though each value and find the max col and rows
         - We will store this in a map/object for fast access.
